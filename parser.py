@@ -1,5 +1,5 @@
 # импорт библиотек
-import sys, glob, time, serial, os, subprocess, threading, struct, re
+import sys, glob, serial, os, re
 
 # присваиваем переменной серийный порт
 ser = serial.Serial()

@@ -51,4 +51,4 @@ try:
                 alarm_file.write(str(line)+'\n'+str(line2)+'\n')     # записывает в файл данные переменной line (то что приходит в порт)
 except serial.SerialException:
     pass
-# ser.close()
+
